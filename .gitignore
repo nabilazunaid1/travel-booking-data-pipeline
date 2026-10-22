@@ -1,0 +1,29 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated CSV datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# VS Code local settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
